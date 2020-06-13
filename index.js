@@ -10,6 +10,12 @@ const app = express()
 const server = http.createServer(app)
 const io = socketio(server)
 
+app.get("/", (req, res) => {
+    res.write("<h2>This is the devspacer chat server...<h2/>")
+    res.write("xd")
+    res.end()
+})
+
 app.use(chatRouter)
 
 io.on("connection", socket => {
