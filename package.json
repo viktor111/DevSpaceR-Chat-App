@@ -1,0 +1,27 @@
+{
+  "name": "devspacer-chat-app",
+  "version": "1.0.0",
+  "description": "Chat app for DevSpaceR",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktor111/DevSpaceR-Chat-App.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Viktor Draganov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktor111/DevSpaceR-Chat-App/issues"
+  },
+  "homepage": "https://github.com/viktor111/DevSpaceR-Chat-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
